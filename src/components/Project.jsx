@@ -7,50 +7,64 @@ const projectsData = [
     title: "starbucks",
     category: "Web",
     img : "starbucks.png",
-    demo: "https://github.com/akshay321u/html101/blob/main/work3.html",
+    code: "https://github.com/akshay321u/html101/blob/main/work3.html",
+    demo:" https://akshay321u.github.io/starbucks/"
   },
   {
     id: 2,
     title: "Art gallery",
     category: "Web",
     img: "art.jpg",
-    demo: "https://github.com/akshay321u/html101/blob/main/work1.html",
+    code: "https://github.com/akshay321u/html101/blob/main/work1.html",
+    demo:"https://akshay321u.github.io/Art/"
   },
   {
     id: 3,
     title: "Double C&B",
     category: "web",
     img: "cb.jpg",
-    demo: "https://github.com/akshay321u/html101/blob/main/work2.html",
+    code: "https://github.com/akshay321u/html101/blob/main/work2.html",
   },
    {
     id: 4,
     title: "Plant UI",
     category: "Web",
     img: "plant2.png",
-    demo: "https://github.com/akshay321u/html101/blob/main/assign3.html",
+    code: "https://github.com/akshay321u/html101/blob/main/assign3.html",
+    demo:"https://akshay321u.github.io/plant/"
   },
   {
     id: 5,
     title: "Todo App",
     category: "App",
     img: "todo.png",
-    demo: "https://github.com/akshay321u/html101/blob/main/js/wrk1.html",
+    code: "https://github.com/akshay321u/html101/blob/main/js/wrk1.html",
+    demo:"https://akshay321u.github.io/todo-list/"
   },
   {
     id: 6,
     title: "Portfolio",
     category: "Web",
     img: "portfolio.png",
-    demo: "",
+    code: "https://github.com/akshay321u/Portfolio",
+    demo:"https://portfolio-akshay-babu-t-k.vercel.app/"
   },
    {
     id: 7,
     title: "Calculator",
     category: "App",
     img: "calc.png", 
-    demo: "https://github.com/akshay321u/html101/blob/main/js/calculator.html",
+    code: "https://github.com/akshay321u/html101/blob/main/js/calculator.html",
+    demo:" https://akshay321u.github.io/calculator/"
   },
+  {
+    id:8,
+    title:"Dance Studio",
+    category:"web",
+    img:"Dance.png",
+    code:"https://github.com/akshay321u/Mini-Project",
+    demo:"https://akshay321u.github.io/Mini-Project/"
+  }
 ];
 
 export default function Projects() {
