@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { motion, styleEffect } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
+
 
 const projectsData = [
   {
@@ -117,11 +119,30 @@ export default function Projects() {
               alt={project.title}
               className="rounded-xl mb-4 w-full h-48 object-cover"
             />
+            <div >
+              <a
+                href={project.code}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center gap-2 px-3 py-1 rounded-2xl bg-blue-400 text-white font-medium hover:bg-blue-500 transition"
+              >
+                Code <FaArrowRight />
+              </a>
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center gap-2 px-3 py-1 rounded-2xl bg-blue-400 text-white font-medium hover:bg-blue-500 transition"
+                style={{ marginLeft: "105px" }}
+              >
+                Demo <FaArrowRight />
+              </a>
+            </div>
 
 
             <h2 className="text-xl font-semibold">{project.title}</h2>
 
-
+          
           </motion.div>
         ))}
       </div>
